@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    padding: 0 !important;
+    
+}
+.navbar-brand img{
+
+    height: 50px;
+    width: 80px;
+    padding-left: 20px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+   
+}
+/*navbar-nav li a bar right side*/
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+
+}
+/*------Start The Banner------
+#banner{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    color: #fff;
+    padding-top: 5%;
+
+}*/
+.promo-title{
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 10px;
+    text-align: left;
+    margin-left: 80px;
+    color: red;
+}
+ .banner {
+        position: relative;
+        background: url('/imagesfolder/ban1.avif') no-repeat center;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+        overflow: hidden;
+        background-repeat: no-repeat;
+   
+ }
+ .head1{
+    color: purple;
+    text-align: right;
+ }
+
+
